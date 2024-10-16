@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
 .main{
-    
-    background-image: url("bg.jpg");
+      
+    background-image:url("..assets/img/bg.jpg");
     height: 70vh;
     position: relative;
     background-position: center center;
