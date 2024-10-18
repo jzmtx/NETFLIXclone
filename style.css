@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
 
 .main{
-      
-    background-image:url("bg.jpg");
+    
+    background-image:url("assets/img/bg.jpg");
     height: 70vh;
     position: relative;
     background-position: center center;
@@ -18,6 +18,7 @@
 body{
     background-color: black;
 }
+
 .main.box{
     height: 86vh;
     width: 100%;
@@ -32,6 +33,7 @@ nav{
     justify-content: space-between;
     max-width: 80vw;
     margin: auto;
+
     align-items: center;
     height: 100px;
 
@@ -133,7 +135,9 @@ border: 1px rgb(240, 233, 233,0.5);
     align-items: center;
 }
 
-
+.hyy{
+    margin: 30px;
+}
     
 
 .secimg img{
@@ -239,6 +243,45 @@ footer.question{
     nav{
         max-width: 90vw;
     }
+    
+        .hero{
+            font-family: 'Martel Sans',sans-serif;
+            height: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            position: absolute;
+            gap: 10PX;
+            padding: 10PX 2PX 0PX 0;
+            width:350PX;
+        }
+        .main input{
+            padding: 1px 45px 7px 0px;
+            color: white;
+            font-weight: 9;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: rgba(23,23,23,0.7);
+            border: 1px rgb(240, 233, 233,0.5);
+            width:300px;
+                
+            
+            }
+            .btn-red{
+                background-color: red;
+                padding: 4px  10px 10px 8px;
+                margin-top:5px;
+                
+                font-size: 20px;
+                border-radius: 8px;
+                font-weight: 400;
+                
+                
+                
+                }
+    
     .first{
         flex-wrap:wrap;
     }
@@ -268,6 +311,7 @@ footer.question{
         align-items: center;
         justify-content: center;
         gap: 16px;
+    
     
     }
     .faq h2{
